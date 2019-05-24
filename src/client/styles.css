@@ -1,0 +1,47 @@
+.header {
+  background-color: #FFFFFF !important
+}
+
+.header .title {
+  color: #181818;
+  flex-grow: 1;
+}
+
+.header .lives {
+  display: 'flex';
+  justify-content: 'flex-end';
+  color: #181818;
+}
+
+.btn-keyboard {
+  margin: 2px !important;
+}
+
+.wrapper {
+  padding: 20px 50px 100px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.wordContainter {
+  display: flex;
+  justify-content: center
+}
+
+.wordBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+  background-color: #F4F4F4;
+  margin: 5px;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  
+}
+
+.wordContainter {
+  display: 'flex';
+  justify-content: 'center';
+}

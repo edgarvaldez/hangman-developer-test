@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { fetchWords } from '../actions/words_actions';
-// import Hangman from './Hangman';
+import Hangman from './Hangman';
 
 class App extends React.Component {
   state = {
@@ -27,7 +27,7 @@ class App extends React.Component {
           height: '60vw',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center',
+          alignItems: 'center'
         }}
         >
           <CircularProgress size={100} />
@@ -35,9 +35,9 @@ class App extends React.Component {
       );
     }
 
-    // const { game } = this.props;
+    const { game } = this.props;
     return (
-      <div>hello</div>
+      <Hangman game={game} />
     );
   }
 }
