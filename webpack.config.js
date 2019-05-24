@@ -12,7 +12,7 @@ module.exports = {
       test: /\.js$/,
       exclude: /node_modules/,
       use: {
-          loader: 'babel-loader'
+        loader: 'babel-loader'
       }
     },
     {
@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        template: './src/client/index.html'
+      template: './src/client/index.html'
     })
   ],
   devServer: {
